@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar  navbar-expand-lg ">
         <div className="container-fluid">
-          <Link className="navbar-brand" href="#">
+          <Link className="navbar-brand" to="#">
             Mohammad Ibrahim
           </Link>
           <button
@@ -25,26 +25,26 @@ const Navbar = () => {
               className="navbar-nav ms-auto my-2  my-lg-0 navbar-nav-scroll"
               style={{ "--bs-scroll-height": "100px" }}
             >
-              <li className="nav-item">
-                <Link className="nav-link" aria-current="page" href="#">
+              {/* <li className="nav-item">
+                <Link className="nav-link" aria-current="page" to="/home">
                   01.Home
                 </Link>
-              </li>
+              </li> */}
               <li className="nav-item">
-                <Link className="nav-link" href="#">
-                  02.about
+                <Link className="nav-link" to="/about">
+                  01.about
                 </Link>
               </li>
              
               <li className="nav-item">
-                <Link className="nav-link">03.experiences</Link>
+                <Link className="nav-link">02.experiences</Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link">04.contact</Link>
+                <Link className="nav-link">03.contact</Link>
               </li>
             </ul>
             <div>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <button type="button" class="btn btn-primary">resume</button>
             </div>
           </div>
         </div>

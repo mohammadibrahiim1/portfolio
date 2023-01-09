@@ -51,7 +51,7 @@ code {
   top: 250px;
   left: 450px;
 }
-.intro{
+.intro {
   color: #64ffda;
   font-family: monospace;
 }
@@ -69,5 +69,51 @@ code {
   text-align: justify;
   padding-top: 20px;
   padding-bottom: 60px;
-  
+}
+.about-title {
+  font-size: 27px;
+  font-family: monospace;
+  font-weight: 700;
+  color: #ccd6f6;
+}
+.number {
+  color: #64ffda;
+  font-family: monospace;
+  font-size: 20px;
+}
+hr {
+  width: 250px;
+  position: relative;
+  top: -30px;
+  left: 180px;
+}
+.about-section {
+  text-align: left;
+  position: absolute;
+  top: 1050px;
+  left: 480px;
+}
+
+.about-section-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.about-section-text {
+  text-align: left;
+  color: #ccd6f6;
+  font-size: 14px;
+  font-family: JetBrains Mono;
+  font-weight: 800;
+}
+.technologies {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.about-img-container img {
+  width: 320px;
+  height: 320px;
 }
