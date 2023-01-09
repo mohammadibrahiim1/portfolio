@@ -35,7 +35,7 @@ const Navbar = () => {
                   01.about
                 </Link>
               </li>
-             
+
               <li className="nav-item">
                 <Link className="nav-link">02.experiences</Link>
               </li>
@@ -44,7 +44,9 @@ const Navbar = () => {
               </li>
             </ul>
             <div>
-            <button type="button" class="btn btn-primary">resume</button>
+              <button type="button" class="btn btn-primary">
+                resume
+              </button>
             </div>
           </div>
         </div>

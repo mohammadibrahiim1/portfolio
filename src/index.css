@@ -102,9 +102,7 @@ hr {
 .about-section-text {
   text-align: left;
   color: #ccd6f6;
-  font-size: 14px;
-  font-family: JetBrains Mono;
-  font-weight: 800;
+  font-size: 17px;
 }
 .technologies {
   display: grid;
