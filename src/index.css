@@ -149,3 +149,40 @@ hr {
   margin-top: 50px;
   margin-bottom: 100px;
 }
+/* .project-container{
+  width: 82%;
+  margin: 0 auto;
+
+} */
+.card-group{
+  width: 323px;
+  height: 350px;
+  
+}
+.card{
+  background-color:  #112240;;
+}
+.card-text{
+  color: #848FAF;
+  font-family: monospace;
+  font-size: 16px;
+}
+.card-title{
+  color: #ccd6f6;
+  font-size: 19px;
+  font-family: JetBrains Mono;
+
+}
+.project-icon-container{
+  display: flex;
+  /* grid-template-columns: repeat(2,1fr); */
+ justify-content:space-between;
+  align-items: center;
+  color: #64ffda;
+  padding: 10px 35px;
+}
+/* .project-socila-icon{
+  padding-right: 10px;
+} */
+
+
