@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { a } from "react-router-dom";
 // import { MobileIcon, Nav, NavbarContainer, NavItem, NavLogo, NavMenu } from "./NavbarElement";
 // import {FaBars} from 'react-icons/fa'
 // import { FaBars } from 'react-icons/fa'
@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       {/* <Nav>
         <NavbarContainer>
-          <NavLogo to='/'>ME</NavLogo>
+          <NavLogo href='/'>ME</NavLogo>
            <MobileIcon>
             
 
@@ -16,18 +16,18 @@ const Navbar = () => {
            </MobileIcon>
            <NavMenu>
             <NavItem>
-                <NavLink to="about">
+                <Nava href="about">
                      About
-                </NavLink>
+                </Nava>
             </NavItem>
            </NavMenu>
         </NavbarContainer>
       </Nav> */}
       <nav className="navbar ms-5 me-5 navbar-expand-lg">
         <div className="container-fluid">
-          <Link className="navbar-brand" to="#">
+          <a className="navbar-brand" href="/#">
             ME
-          </Link>
+          </a>
           <button
             className="navbar-toggler"
             type="button"
@@ -42,27 +42,27 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ms-auto pe-5 mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" to="/">
+                <a className="nav-link" aria-current="page" href="/">
                   Home
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">
+                <a className="nav-link" href="/#about">
                   About
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">
+                <a className="nav-link" href="/#">
                   experience
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">
+                <a className="nav-link" href="/#">
                   Projects
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link className="nav-link">Contact</Link>
+                <a className="nav-link" href="/#">Contact</a>
               </li>
             </ul>
             <button type="button" class="btn btn-secondary">

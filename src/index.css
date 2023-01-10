@@ -13,23 +13,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-h6{
+h6 {
   color: #64ffda;
   font-family: monospace;
   font-size: 15px;
 }
-.display-3{
-  color: #CCD6F6;
+.display-3 {
+  color: #ccd6f6;
   font-size: 58px;
   font-family: Jetbrains Mono;
-
-
 }
-.lead{
-  color: #8892B0;
+.lead {
+  color: #8892b0;
   font-size: 17px;
   font-family: monospace;
-  
 }
 
 .btn {
@@ -37,48 +34,70 @@ h6{
   font-family: monospace;
   border-color: #64ffda;
   background-color: black;
-
 }
-.btn:hover{
-  border-color:#64ffda;
-  background-color:#7e7d7d23;
+.btn:hover {
+  border-color: #64ffda;
+  background-color: #7e7d7d23;
   color: #64ffda;
-  
 }
-.hcf-transform{
+.hcf-transform {
   margin-top: 230px;
-  
 }
-.about-me{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.about-me {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #64ffda;
   font-size: 28px;
-
 }
-hr{
+hr {
   position: relative;
-   bottom: 27px; 
+  bottom: 27px;
   left: 180px;
   max-width: 65%;
 }
 
-.about-p{
+.about-p {
   font-size: 21px;
-  color: #8892B0;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #8892b0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin-top: 30px;
-
 }
-.technologies{
+.technologies {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   font-size: 17px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: #8892B0;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #8892b0;
   margin-top: 15px;
   list-style-type: none;
 }
-.about-me-section{
+.about-me-section {
   margin-top: 200px;
   margin-bottom: 200px;
+}
+.social-icon {
+  width: 19px;
+  height: 19px;
+  color: #8892b0;
+}
+.social-icon:hover {
+  width: 20px;
+  height: 20px;
+  color: #727b94;
+}
+.copyright {
+  font-size: 13px;
+  font-family: monospace;
+  color: #8892b0;
+}
+.footer-link {
+  text-decoration: none;
+  color: #64ffda;
+  font-size: 13px;
+  font-family: monospace;
+}
+.credits {
+  font-size: 13px;
+  font-family: monospace;
+  color: #8892b0;
+  margin-left: 35px;
 }
