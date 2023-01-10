@@ -23,7 +23,7 @@ const Navbar = () => {
            </NavMenu>
         </NavbarContainer>
       </Nav> */}
-      <nav className="navbar ms-5 me-5 navbar-expand-lg">
+      <nav className="navbar sticky-top ms-5 me-5 navbar-expand-lg">
         <div className="container-fluid">
           <a className="navbar-brand" href="/#">
             ME
@@ -43,26 +43,31 @@ const Navbar = () => {
             <ul className="navbar-nav ms-auto pe-5 mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="/">
-                  Home
+                   <span className="nav-serial">
+                   01.</span>Home
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/#about">
-                  About
+                  <span  className="nav-serial">
+                  02.</span>About
+                </a>
+              </li>
+              {/* <li className="nav-item">
+                <a className="nav-link" href="/#">
+                 <span>
+                 03.</span> experience
+                </a>
+              </li> */}
+              <li className="nav-item">
+                <a className="nav-link" href="/#">
+                  <span  className="nav-serial">03.</span>Projects
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/#">
-                  experience
+                   <span  className="nav-serial">04.</span>Contact
                 </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/#">
-                  Projects
-                </a>
-              </li>
-              <li className="nav-item">
-                <a className="nav-link" href="/#">Contact</a>
               </li>
             </ul>
             <button type="button" class="btn btn-secondary">
