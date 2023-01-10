@@ -12,7 +12,7 @@ const About = () => {
           <div class="row gy-2 gy-md-0 justify-content-xxl-center">
             <div class="col-12 order-md-1 col-md-4 col-xxl-4">
               <div class="text-center text-md-start text-sm-start me-md-3 me-xl-5">
-                <div class="col-12 col-md-10 col-xxl-8 mt-5">
+                <div class="col-12 col-md-10 col-xxl-8 mt-5 pt-4">
                   <img
                     class=" img-fluid rounded shadow"
                     loading="lazy"
