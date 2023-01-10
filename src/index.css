@@ -48,7 +48,7 @@ h6 {
   color: #64ffda;
   font-size: 28px;
 }
-.fs-5{
+.fs-5 {
   font-family: monospace;
 }
 hr {
@@ -75,7 +75,7 @@ hr {
 }
 .about-me-section {
   margin-top: 200px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
 }
 .social-icon {
   width: 19px;
@@ -104,41 +104,48 @@ hr {
   color: #8892b0;
   margin-left: 35px;
 }
-.nav-link{
+.nav-link {
   color: #8892b0;
   font-family: monospace;
   margin-right: 15px;
   font-size: 14px;
 }
-.nav-link:hover{
+.nav-link:hover {
   color: #64ffda;
   font-family: monospace;
   margin-right: 15px;
   font-size: 14px;
 }
-.nav-serial{
+.nav-serial {
   color: #64ffda;
   font-size: 12px;
   font-family: monospace;
 }
-.navbar-brand{
+.navbar-brand {
   color: #64ffda;
   font-size: 28px;
   font-family: JetBrains monospace;
 }
-.what-next{
-  font-family:monospace ;
+.what-next {
+  font-family: monospace;
   font-size: 18px;
-
 }
-.serial-num{
+.serial-num {
   font-size: 15px;
   font-family: monospace;
 }
-.display-5{
+.display-5 {
   font-size: 42px;
   font-weight: 700;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #8892b0;
-
+  /* width: 50%; */
+}
+.text-secondary {
+  width: 80%;
+  margin: 0 auto;
+}
+.contact{
+  margin-top: 50px;
+  margin-bottom: 100px;
 }

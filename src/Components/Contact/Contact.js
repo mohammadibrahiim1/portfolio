@@ -1,28 +1,31 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
-    return (
-        <div>
-            <section class=" py-5 py-xl-6">
-  <div class="container mb-5 mb-md-6">
-    <div class="row justify-content-md-center">
-      <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
-        <h6 className='what-next'>
-            <span className='serial-num'>04.</span>what's next?
-        </h6>
-        <h2 class="mb-4 display-5">Get In Touch</h2>
-        <p class="text-secondary mb-4 mb-md-5"> I’m currently looking for any new opportunities, my inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!</p>
-       
-      </div>
-    </div>
-  </div>
+  return (
+    <div>
+      <section class="py-5 py-xl-6 contact">
+        <div class="container mb-5 mb-md-6">
+          <div class="row justify-content-md-center">
+            <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">
+              <h6 className="what-next">
+                <span className="serial-num">04.</span>what's next?
+              </h6>
+              <h2 class="mb-4 display-5">Get In Touch</h2>
+              <p class="text-secondary mt-2">
+                {" "}
+                Although I’m not currently looking for any new opportunities, my inbox is
+                always open. Whether you have a question or just want to say hi,
+                I’ll try my best to get back to you!
+              </p>
+            </div>
+          </div>
+        </div>
 
-  <div class="container">
-    <div class="row justify-content-lg-center">
-      <div class="col-12 col-lg-9">
-        <div class="bg-white border rounded shadow-sm overflow-hidden">
-
-          {/* <form action="#!">
+        <div class="container">
+          <div class="row justify-content-lg-center">
+            <div class="col-12 col-lg-9">
+              <div class="text-center shadow-sm overflow-hidden">
+                {/* <form action="#!">
             <div class="row gy-4 gy-xl-5 p-4 p-xl-5">
               <div class="col-12">
                 <label for="fullname" class="form-label">Full Name <span class="text-danger">*</span></label>
@@ -61,14 +64,15 @@ const Contact = () => {
               </div>
             </div>
           </form> */}
+          <button class="btn btn-primary contact-btn" type="submit">say hello</button>
 
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
+      </section>
     </div>
-  </div>
-</section>
-        </div>
-    );
+  );
 };
 
 export default Contact;
