@@ -8,8 +8,8 @@ const Header = () => {
         // style="background-image: url('./assets/img/heroes/hero-1/hero-main.jpg');"
       >
         <div className="container">
-          <div className="row justify-content-md-start ms-md-5 ps-md-5">
-            <div className="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-8 text-start title ">
+          <div className="row justify-content-md-start      ms-lg-5 ps-lg-5 ms-sm-0">
+            <div className="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-8 text-md-start title">
               <h6>Hi, My name is</h6>
               <h1 className="display-3 fw-bold mb-3 mt-3">
                 Mohammad Ibrahim <br />
