@@ -1,5 +1,5 @@
 body {
-  /* background-color: #0a192f; */
+  background-color: #0a192f;
 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -13,105 +13,39 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-.navbar {
-  font-family: monospace;
-  font-size: 14px;
-  color: #64ffda;
-  margin: 15px 100px;
-}
-.navbar-brand {
-  color: #64ffda;
-}
-.navbar-brand:hover {
-  color: #64ffda;
-}
-.nav-link {
-  color: #64ffda;
-}
-.nav-link:hover {
-  color: rgb(188, 189, 173);
-}
-.nav-item {
-  margin-right: 10px;
-}
-.btn {
-  border: 1px solid #64ffda;
-  background-color: #0a192f;
-  margin-left: 10px;
-  padding: 10px 20px;
-}
-.btn:hover {
-  background-color: rgba(128, 128, 128, 0.178);
-
-  border: 1px solid #64ffda;
-}
-.header-container {
-  text-align: left;
-  position: absolute;
-  top: 250px;
-  left: 450px;
-}
-.intro {
+h6{
   color: #64ffda;
   font-family: monospace;
+  font-size: 15px;
 }
-.header-title {
+.display-3{
+  color: #CCD6F6;
   font-size: 58px;
-  font-family: JetBrains Mono;
-  color: #ccd6f6;
-  font-weight: 700;
-  margin-top: 20px;
+  font-family: Jetbrains Mono;
+
+
 }
-.heading-paragraph {
+.lead{
+  color: #8892B0;
   font-size: 17px;
-  color: #ccd6f6;
-  width: 490px;
-  text-align: justify;
-  padding-top: 20px;
-  padding-bottom: 60px;
-}
-.about-title {
-  font-size: 27px;
   font-family: monospace;
-  font-weight: 700;
-  color: #ccd6f6;
+  
 }
-.number {
+
+.btn {
   color: #64ffda;
   font-family: monospace;
-  font-size: 20px;
-}
-hr {
-  width: 250px;
-  position: relative;
-  top: -30px;
-  left: 180px;
-}
-.about-section {
-  text-align: left;
-  position: absolute;
-  top: 1050px;
-  left: 480px;
-}
+  border-color: #64ffda;
+  background-color: black;
 
-.about-section-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
 }
-.about-section-text {
-  text-align: left;
-  color: #ccd6f6;
-  font-size: 17px;
+.btn:hover{
+  border-color:#64ffda;
+  background-color:#7e7d7d23;
+  color: #64ffda;
+  
 }
-.technologies {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
-  margin-top: 12px;
-}
-
-.about-img-container img {
-  width: 320px;
-  height: 320px;
+.hcf-transform{
+  margin-top: 230px;
+  
 }
