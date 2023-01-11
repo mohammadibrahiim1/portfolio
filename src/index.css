@@ -145,7 +145,7 @@ hr {
   width: 80%;
   margin: 0 auto;
 }
-.contact{
+.contact {
   margin-top: 50px;
   margin-bottom: 100px;
 }
@@ -154,29 +154,27 @@ hr {
   margin: 0 auto;
 
 } */
-.card-group{
+.card-group {
   width: 323px;
   height: 350px;
-  
 }
-.card{
-  background-color:  #112240;;
+.card {
+  background-color: #112240;
 }
-.card-text{
-  color: #848FAF;
+.card-text {
+  color: #848faf;
   font-family: monospace;
   font-size: 16px;
 }
-.card-title{
+.card-title {
   color: #ccd6f6;
   font-size: 19px;
   font-family: JetBrains Mono;
-
 }
-.project-icon-container{
+.project-icon-container {
   display: flex;
   /* grid-template-columns: repeat(2,1fr); */
- justify-content:space-between;
+  justify-content: space-between;
   align-items: center;
   color: #64ffda;
   padding: 10px 35px;
@@ -184,5 +182,30 @@ hr {
 /* .project-socila-icon{
   padding-right: 10px;
 } */
+.display-projects-container {
+  margin-bottom: 300px;
+}
+.featured-project {
+  font-size: 13px;
+  font-family: monospace;
+  color: #64ffda;
+  margin-top: 15px;
+}
+.fp-title {
+  font-size: 28px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #ccd6f6;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+.card-text{
+  font-size: 17px;
+  color: #727b94;
+  font-family: monospace;
+  text-align: left;
+  margin-bottom: 22px;
 
-
+}
+.social-link{
+  color: #64ffda;
+}
