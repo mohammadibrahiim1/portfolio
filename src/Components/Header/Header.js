@@ -4,8 +4,8 @@ const Header = () => {
   return (
     <div>
       <section
-        className="px-5 py-6 py-xxl-10 hcf-bp-center hcf-bs-cover hcf-overlay hcf-transform "
-        // style="background-image: url('./assets/img/heroes/hero-1/hero-main.jpg');"
+        className="px-5 py-6 py-xxl-10 hcf-bp-center hcf-bs-cover hcf-overlay hcf-transform " id="#"
+        // style="background-image: url('./assets/img/heroes/hero-1/hero-main.jpg');" 
       >
         <div className="container">
           <div className="row justify-content-md-start      ms-lg-5 ps-lg-5 ms-sm-0">

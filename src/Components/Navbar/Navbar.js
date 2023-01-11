@@ -25,7 +25,7 @@ const Navbar = () => {
       </Nav> */}
       <nav className="navbar sticky-top ms-5 me-5 navbar-expand-lg">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/#">
+          <a className="navbar-brand" href="/">
             ME
           </a>
           <button
@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ms-auto pe-5 mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/">
+                <a className="nav-link" aria-current="page" href="/#">
                    <span className="nav-serial">
                    01.</span>Home
                 </a>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 </a>
               </li> */}
               <li className="nav-item">
-                <a className="nav-link" href="/#">
+                <a className="nav-link" href="/#project">
                   <span  className="nav-serial">03.</span>Projects
                 </a>
               </li>
