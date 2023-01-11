@@ -190,6 +190,7 @@ hr {
   font-family: monospace;
   color: #64ffda;
   margin-top: 15px;
+  font-weight: bold;
 }
 .fp-title {
   font-size: 28px;
@@ -198,14 +199,31 @@ hr {
   margin-top: -10px;
   margin-bottom: 20px;
 }
-.card-text{
+.card-text {
   font-size: 17px;
   color: #727b94;
   font-family: monospace;
   text-align: left;
   margin-bottom: 22px;
-
 }
-.social-link{
+.social-link {
   color: #64ffda;
+}
+.text-container {
+  text-align: right;
+  position: relative;
+  right: 65px;
+}
+.card-text-2 {
+  font-size: 17px;
+  font-family: monospace;
+  color: #727b94;
+}
+.text-align {
+  text-align: right;
+  border: 1px solid #112240;
+  border-radius: 7px;
+  padding: 15px;
+  background-color: #112240;
+  position: relative;
 }

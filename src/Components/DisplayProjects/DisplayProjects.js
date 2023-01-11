@@ -36,6 +36,41 @@ const DisplayProjects = () => {
             </div>
           </div>
         </div>
+      </section >
+           
+      <section className=" w-75 m-auto d-none d-sm-block d-md-none d-lg-block ">
+    <div className="d-flex w-75 m-auto ">
+    <div  className="bg-white">
+            <img src="" alt="" style={{width:"579px", height:"325px"}}  />
+           </div>
+           <div className="text-container align-middle pt-3">
+             <p className="featured-project">
+             featured project
+             </p>
+             <h5 className="fp-title">
+                RS IT
+             </h5>
+             <p className="card-text text-align">
+             This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+             </p>
+             <p class="card-text-2">
+              <small>Wordpress Elementor </small>
+            </p>
+            <div>
+              <Link to="" className="social-link">
+                {" "}
+                <FiGithub
+                  className="me-3 mt-1"
+                  style={{ width: "20px", height: "20px" }}
+                />
+              </Link>
+             <Link to="" className="social-link">
+             <FaExternalLinkAlt style={{ width: "18px", height: "18px" }} /></Link>
+            </div>
+           </div>
+    </div>
       </section>
     </div>
   );
