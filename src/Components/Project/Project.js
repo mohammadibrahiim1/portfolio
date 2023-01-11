@@ -9,7 +9,7 @@ const Project = ({ project }) => {
   return (
     <div>
       <div class="col">
-        <div class="card pt-4" style={{ height: "350px" }}>
+        <div class="card pt-4" style={{ height: "353px" }}>
           <div className="project-icon-container">
             <div>
               <FaRegFolder style={{width:'52px', height:"52px"}}/>
@@ -21,7 +21,7 @@ const Project = ({ project }) => {
           </div>
           <div class="card-body m-3 mt-3 pt-3">
             <h5 class="card-title">{name}</h5>
-            <p class="card-text">{about.slice(0, 100)}</p>
+            <p class="card-text">{about.slice(0, 80)}</p>
             <p class="card-text">{tools}</p>
           </div>
         </div>
