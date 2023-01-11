@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 
 const DisplayProjects = () => {
   return (
-    <div className="display-projects-container">
-      <h4 className="project-section-title w-50 m-auto"> <span className="fs-5 font-monospace">03.</span> Some Things I've Built</h4>
+    <div className="display-projects-container mt-5 pt-5">
+      <h4 className="project-section-title w-50 m-auto mt-5"> <span className="fs-5 font-monospace">03.</span> Some Things I've Built</h4>
       <hr className="text-secondary w-25 m-auto d-project-line" />
       <section className="d-block w-75 m-auto d-lg-none">
         <div
