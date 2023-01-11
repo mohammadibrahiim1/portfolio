@@ -30,7 +30,7 @@ const About = () => {
                   <span className="fs-5 ">01.</span> About Me
                 </h2>
 
-                <hr class="mx-auto ms-md-0 ms-lg-0 mb-4 text-secondary" />
+                <hr class="mx-auto ms-1 mt-3 text-secondary" />
                 <p className="about-p">
                   Hello! My name is Brittany and I enjoy creating things that
                   live on the internet. My interest in web development started

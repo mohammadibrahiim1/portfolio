@@ -144,6 +144,7 @@ hr {
 .text-secondary {
   width: 80%;
   margin: 0 auto;
+  
 }
 .contact {
   margin-top: 50px;
@@ -226,4 +227,29 @@ hr {
   padding: 15px;
   background-color: #112240;
   position: relative;
+}
+
+.position-relative{
+  right: 65px;
+}
+.d-project{
+  padding-bottom: 250px;
+}
+.project-section-title{
+  font-size: 25px;
+  /* font-family: monospace; */
+  color: #848faf;
+  font-weight: 600;
+  position: relative;
+  right: 60px;
+  bottom: 50px;
+}
+.font-monospace{
+  color: #64ffda;
+}
+.d-project-line{
+  position: absolute;
+  top: 1820px;
+  left: 740px;
+  
 }
