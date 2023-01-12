@@ -24,7 +24,67 @@ const DisplayProjects = () => {
               <li>Wordpress</li>
               <li>Elementor</li>
               <li>Elementor Pro</li>
-              <li>Payment Gateway</li>
+              {/* <li>Payment Gateway</li> */}
+            
+            </ul>
+            <div className="icon-container">
+           <a href="/">   <FiGithub className="icon" /></a>
+
+           <a href="/">   <FaExternalLinkAlt
+                className="icon"
+                style={{ width: "18px", height: "18px" }}
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div className="second-project-container">
+          <div className="project-img">
+            {/* <a href="https://ibb.co/Q9pBXBg"><img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="Screenshot-21" border="0"></a> */}
+            <img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="" />
+          </div>
+          <div className="project-info">
+            <small className="small-text">featured project</small>
+            <h4 className="project-title">Donate Today</h4>
+            <p className="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              deserunt labore repudiandae itaque facere sit maiores! Adipisci
+              dolor illum omnis.
+            </p>
+            <ul className="project-tools-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              {/* <li>Elementor Pro</li> */}
+              {/* <li>Payment Gateway</li> */}
+            
+            </ul>
+            <div className="icon-container">
+           <a href="/">   <FiGithub className="icon" /></a>
+
+           <a href="/">   <FaExternalLinkAlt
+                className="icon"
+                style={{ width: "18px", height: "18px" }}
+              /></a>
+            </div>
+          </div>
+        </div>
+        <div className="third-project-container">
+          <div className="project-img">
+            {/* <a href="https://ibb.co/Q9pBXBg"><img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="Screenshot-21" border="0"></a> */}
+            <img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="" />
+          </div>
+          <div className="project-info">
+            <small className="small-text">featured project</small>
+            <h4 className="project-title">Donate Today</h4>
+            <p className="project-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
+              deserunt labore repudiandae itaque facere sit maiores! Adipisci
+              dolor illum omnis.
+            </p>
+            <ul className="project-tools-list">
+              <li>HTML</li>
+              <li>CSS</li>
+              {/* <li>Elementor Pro</li> */}
+              {/* <li>Payment Gateway</li> */}
             
             </ul>
             <div className="icon-container">

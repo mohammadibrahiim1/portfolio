@@ -6,9 +6,23 @@
 .project-img img {
   width: 579px;
   height: 325px;
-  background-color: white;
+  opacity: 0.5;
+}
+.project-img img:hover {
+  opacity: 1;
+  cursor: pointer;
 }
 .project-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.second-project-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.third-project-container{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
@@ -57,17 +71,106 @@
 .project-tools-list li {
   font-family: monospace;
 }
-.icon-container{
-    position: relative;
-    top: 52%;
+.icon-container {
+  position: relative;
+  top: 52%;
 }
 .icon {
   width: 20px;
   height: 20px;
   margin-right: 10px;
-  margin-top: 2px;
+  margin-top: 4px;
   color: #ccd6f6;
 }
 .icon:hover {
   color: #64ffda;
+}
+@media screen and (max-width: 576px) {
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    right: 14%;
+  }
+  .second-project-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    bottom: 295px;
+    left: -14%;
+  }
+  .third-project-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    position: relative;
+    bottom: 595px;
+    left: -14%;
+  }
+
+  .project-img img {
+    width: 350px;
+    height: 382px;
+    opacity: 0.1;
+    border-radius: 7px;
+  }
+
+  .project-info {
+    text-align: left;
+  }
+  .small-text {
+    position: relative;
+    top: -115%;
+    left: 5%;
+    font-size: 13px;
+    font-family: monospace;
+    color: #64ffda;
+  }
+  .project-title {
+    position: relative;
+    top: -113%;
+    left: 5%;
+    font-size: 27px;
+    font-family: JetBrains Mono;
+    color: #ccd6f6;
+  }
+
+  .project-description {
+    position: relative;
+    width: 99%;
+    top: -117%;
+    right: 2%;
+    font-size: 17px;
+    font-family: monospace;
+    font-weight: 500;
+    color: #ccd6f6;
+    background-color: #11224000;
+    /* padding: 25px; */
+    /* border-radius: 7px; */
+    margin-top: 20px;
+  }
+  .project-tools-list {
+    position: relative;
+    top: -120%;
+    right: 4%;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    font-size: 17px;
+    justify-content: space-between;
+    gap: 4px;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 20px;
+    color: #ccd6f6;
+    font-family: monospace;
+  }
+  .icon-container {
+    position: relative;
+    top: -110%;
+    left: 6%;
+  }
+  .project-img img:hover {
+    opacity: 0.1;
+    /* cursor: pointer; */
+  }
 }
