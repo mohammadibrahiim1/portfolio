@@ -14,13 +14,13 @@ const Footer = () => {
         <div class="container overflow-hidden">
           <div class="row gy-5 gy-md-0">
             <div class="col-xs-12 col-md-7 order-1 order-md-0">
-              <div class="copyright text-center text-md-start">
+              <div class="copyright text-center text-md-start text-lg-start">
                 Designed & Built by{" "}
                 <a className="footer-link" href="https://github.com/mohammadibrahiim1">
                   Mohammad Ibrahim
                 </a>
               </div>
-              <div class="credits text-secondary text-center text-md-start mt-2 fs-7">
+              <div class="credits text-secondary text-center text-md-start text-lg-start ms-5 mt-2 fs-7">
                 front-end web-developer
               </div>
             </div>

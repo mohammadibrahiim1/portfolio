@@ -40,7 +40,7 @@ const Project = ({ project }) => {
             <p class="card-text">{about.slice(0, 80)}</p>
          
      <div className="d-flex justify-content-start align-self-center gap-3">
-     {tools && tools.slice(0,3).map( (tool) => <p class="card-text ">{tool.t1}</p> )   }
+     {tools && tools.map( (tool) => <p class="card-text ">{tool.t1}</p> )   }
      </div>
           </div>
         </div>

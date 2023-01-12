@@ -102,7 +102,6 @@ hr {
   font-size: 13px;
   font-family: monospace;
   color: #8892b0;
-  margin-left: 35px;
 }
 .nav-link {
   color: #8892b0;
@@ -146,7 +145,7 @@ hr {
   margin: 0 auto;
 }
 .contact {
-  margin-top: 50px;
+  margin-top: 150px;
   margin-bottom: 100px;
 }
 /* .project-container{
@@ -154,6 +153,9 @@ hr {
   margin: 0 auto;
 
 } */
+.d-lg-none {
+  padding-bottom: 400px;
+}
 .card-group {
   width: 323px;
   height: 350px;
@@ -172,33 +174,27 @@ hr {
   font-family: JetBrains Mono;
 }
 
-/* .project-socila-icon{
-  padding-right: 10px;
-} */
-.display-projects-container {
-  margin-bottom: 300px;
-}
-.featured-project {
+/* .featured-project {
   font-size: 13px;
   font-family: monospace;
   color: #64ffda;
   margin-top: 15px;
   font-weight: bold;
-}
-.fp-title {
+} */
+/* .fp-title {
   font-size: 28px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: #ccd6f6;
   margin-top: -10px;
   margin-bottom: 20px;
-}
-.card-text {
+} */
+/* .card-text {
   font-size: 17px;
   color: #727b94;
   font-family: monospace;
   text-align: left;
   margin-bottom: 22px;
-}
+} */
 .social-link {
   color: #848faf;
 }
@@ -226,15 +222,16 @@ hr {
 }
 .d-project {
   padding-bottom: 250px;
+  /* padding-top: 250px; */
 }
 .project-section-title {
   font-size: 25px;
-  /* font-family: monospace; */
   color: #848faf;
   font-weight: 600;
   position: relative;
   right: 60px;
   bottom: 50px;
+  /* padding-top: 250px; */
 }
 .font-monospace {
   color: #64ffda;
@@ -244,15 +241,18 @@ hr {
   top: 1915px;
   left: 740px;
 }
-.projects-heading{
+.projects-heading {
   color: #8892b0;
   font-weight: 700;
   font-family: JetBrains Mono;
 }
-.projects-sub-heading{
+.projects-sub-heading {
   font-size: 14px;
   font-family: monospace;
   color: #64ffda;
   text-decoration: none;
-
 }
+/*  */
+/* .title-section{
+  margin-top: 250px;
+} */
