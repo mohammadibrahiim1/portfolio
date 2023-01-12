@@ -1,0 +1,15 @@
+.project-icon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 35px;
+}
+.fa-folder{
+    color: #64ffda;
+}
+.icon-color{
+    color: aliceblue;
+}
+.icon-color:hover{
+    color: #64ffda;
+}

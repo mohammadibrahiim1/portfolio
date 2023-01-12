@@ -171,14 +171,7 @@ hr {
   font-size: 19px;
   font-family: JetBrains Mono;
 }
-.project-icon-container {
-  display: flex;
-  /* grid-template-columns: repeat(2,1fr); */
-  justify-content: space-between;
-  align-items: center;
-  color: #64ffda;
-  padding: 10px 35px;
-}
+
 /* .project-socila-icon{
   padding-right: 10px;
 } */
@@ -207,7 +200,7 @@ hr {
   margin-bottom: 22px;
 }
 .social-link {
-  color: #64ffda;
+  color: #848faf;
 }
 .text-container {
   text-align: right;
