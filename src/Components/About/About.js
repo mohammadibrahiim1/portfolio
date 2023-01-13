@@ -1,8 +1,9 @@
 import React from "react";
+import './About.css'
 
 const About = () => {
   return (
-    <div>
+    <div className="about-section-container">
       <section class="py-5 py-xl-6 about-me-section" id="about">
         <div class="container mb-4 mb-md-5 mb-xl-6">
           <div class="row justify-content-md-center"></div>

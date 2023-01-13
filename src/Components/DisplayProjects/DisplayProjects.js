@@ -6,8 +6,8 @@ import "./DisplayProjects.css";
 
 const DisplayProjects = () => {
   return (
-    <div>
-      <section className="display-projects" id="project">
+    <div id="project">
+      <section className="display-projects" >
         <div>
           <h3 className="section-heading"> <span className="section-serial">03.</span> Some Things I've Built <span><hr className="display-project-hr" /></span></h3>
           

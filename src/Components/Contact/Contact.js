@@ -3,7 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div>
-      <section class="py-5 py-xl-6  contact" id="contact">
+      <section class="py-5 py-xl-6 contact" id="contact">
         <div class="container mb-5 mb-md-6">
           <div class="row justify-content-md-center">
             <div class="col-12 col-md-10 col-lg-8 col-xl-7 col-xxl-6 text-center">

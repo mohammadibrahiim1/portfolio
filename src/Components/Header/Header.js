@@ -4,8 +4,9 @@ const Header = () => {
   return (
     <div>
       <section
-        className="px-5 py-6 py-xxl-10 hcf-bp-center hcf-bs-cover hcf-overlay hcf-transform " id="#"
-        // style="background-image: url('./assets/img/heroes/hero-1/hero-main.jpg');" 
+        className="px-5 py-6 py-xxl-10 hcf-bp-center hcf-bs-cover hcf-overlay hcf-transform "
+        id="#"
+        // style="background-image: url('./assets/img/heroes/hero-1/hero-main.jpg');"
       >
         <div className="container">
           <div className="row justify-content-md-start      ms-lg-5 ps-lg-5 ms-sm-0">
@@ -25,7 +26,10 @@ const Header = () => {
                 {/* <button type="button" className="btn btn-light btn-lg px-4 gap-3">
                   Free Consultation
                 </button> */}
-                <button type="button" className="btn btn-outline-light btn-lg px-4">
+                <button
+                  type="button"
+                  className="btn btn-outline-light btn-lg px-4"
+                >
                   check out my resume
                 </button>
               </div>

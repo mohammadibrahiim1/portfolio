@@ -2,7 +2,10 @@
   width: 56%;
   height: 1674px;
   margin: 0 auto;
+  padding-top: 50px;
+ 
 }
+
 .section-serial{
   font-size: 20px;
   color: #64ffda;
@@ -36,6 +39,7 @@
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
   margin-bottom: 100px;
+ 
 }
 .second-project-container {
   display: grid;
