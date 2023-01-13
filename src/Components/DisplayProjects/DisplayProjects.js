@@ -8,7 +8,7 @@ const DisplayProjects = () => {
   return (
     <div>
       <section className="display-projects">
-        <div className="project-container">
+        <div className="project-container mb-5 pb-5">
           <div className="project-img">
             <img src="https://i.ibb.co/kXx4Gkq/Screenshot-20.png" alt="" />
           </div>
@@ -37,7 +37,7 @@ const DisplayProjects = () => {
             </div>
           </div>
         </div>
-        <div className="second-project-container">
+        <div className="second-project-container mb-5 pb-5">
           <div className="project-img">
             {/* <a href="https://ibb.co/Q9pBXBg"><img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="Screenshot-21" border="0"></a> */}
             <img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="" />
@@ -69,12 +69,12 @@ const DisplayProjects = () => {
         </div>
         <div className="third-project-container">
           <div className="project-img">
-            {/* <a href="https://ibb.co/Q9pBXBg"><img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="Screenshot-21" border="0"></a> */}
-            <img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="" />
+            {/* <a href="https://ibb.co/4NF9vxN"><img src="https://i.ibb.co/C0wNCF0/Screenshot-22.png" alt="Screenshot-22" border="0"></a> */}
+            <img src="https://i.ibb.co/C0wNCF0/Screenshot-22.png" alt="" />
           </div>
           <div className="project-info">
             <small className="small-text">featured project</small>
-            <h4 className="project-title">Donate Today</h4>
+            <h4 className="project-title">LMS Website</h4>
             <p className="project-description">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut
               deserunt labore repudiandae itaque facere sit maiores! Adipisci
@@ -83,7 +83,7 @@ const DisplayProjects = () => {
             <ul className="project-tools-list">
               <li>HTML</li>
               <li>CSS</li>
-              {/* <li>Elementor Pro</li> */}
+              <li>Bootstrap</li>
               {/* <li>Payment Gateway</li> */}
             
             </ul>
