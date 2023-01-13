@@ -1,4 +1,6 @@
 import React from "react";
+import { BsHexagon } from "react-icons/bs";
+import './Navbar.css'
 // import { a } from "react-router-dom";
 // import { MobileIcon, Nav, NavbarContainer, NavItem, NavLogo, NavMenu } from "./NavbarElement";
 // import {FaBars} from 'react-icons/fa'
@@ -23,10 +25,12 @@ const Navbar = () => {
            </NavMenu>
         </NavbarContainer>
       </Nav> */}
-      <nav className="navbar sticky-top ms-5 me-5 navbar-expand-lg">
+      <nav className="navbar sticky-top  navbar-expand-lg py-3">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
-            ME
+          <a className="navbar-brand ms-5" href="/">
+            {/* ME */}
+            <BsHexagon className="logo"  /> <span className="logo-name">M</span>
+            
           </a>
           <button
             className="navbar-toggler"
@@ -39,7 +43,7 @@ const Navbar = () => {
           >
             <span className="navbar-toggler-icon"></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <div className="collapse me-5  navbar-collapse" id="navbarTogglerDemo02">
             <ul className="navbar-nav ms-auto pe-5 mb-2 mb-lg-0">
               <li className="nav-item">
                 <a className="nav-link" aria-current="page" href="/#">

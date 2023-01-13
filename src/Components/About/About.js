@@ -13,9 +13,9 @@ const About = () => {
           <div class="row gy-2 gy-md-0 justify-content-xxl-center">
             <div class="col-12 order-md-1 col-md-4 col-xxl-4">
               <div class="text-center text-md-start text-sm-start me-md-3 me-xl-5">
-                <div class="col-12 col-md-10 col-xxl-8 mt-5 pt-4">
+                <div class="col-12 col-md-10 col-xxl-8 mt-5 pt-5">
                   <img
-                    class=" img-fluid rounded shadow"
+                    class="img-fluid rounded shadow"
                     loading="lazy"
                     src="https://us.123rf.com/450wm/anatolir/anatolir2011/anatolir201105528/anatolir201105528.jpg?ver=6"
                     alt=""
@@ -26,7 +26,7 @@ const About = () => {
 
             <div class="col-12 order-md-0 col-md-8 col-xxl-6">
               <div class="text-start text-md-start text-lg-start">
-                <h2 class=" about-me fw-bold lh-1">
+                <h2 class="about-me fw-bold lh-1">
                   {" "}
                   <span className="fs-5 ">01.</span> About Me
                 </h2>

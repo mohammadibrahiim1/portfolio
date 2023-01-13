@@ -1,5 +1,5 @@
 body {
-  background-color: #0a192f;
+  background-color: #0A192F;
 
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -33,7 +33,7 @@ h6 {
   color: #64ffda;
   font-family: monospace;
   border-color: #64ffda;
-  background-color: black;
+  background-color: #0A192F;
 }
 .btn:hover {
   border-color: #64ffda;
@@ -47,6 +47,7 @@ h6 {
   font-family: monospace;
   color: #64ffda;
   font-size: 28px;
+  padding-top: 100px;
 }
 .fs-5 {
   font-family: monospace;
@@ -74,8 +75,9 @@ hr {
   list-style-type: none;
 }
 .about-me-section {
-  margin-top: 200px;
+  margin-top: 300px;
   margin-bottom: 150px;
+  
 }
 .social-icon {
   width: 19px;
