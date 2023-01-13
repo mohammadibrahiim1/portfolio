@@ -1,13 +1,17 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./DisplayProjects.css";
 
 const DisplayProjects = () => {
   return (
     <div>
-      <section className="display-projects">
+      <section className="display-projects" id="project">
+        <div>
+          <h3 className="section-heading"> <span className="section-serial">03.</span> Some Things I've Built <span><hr className="display-project-hr" /></span></h3>
+          
+        </div>
         <div className="project-container">
           <div className="project-img">
             <img src="https://i.ibb.co/kXx4Gkq/Screenshot-20.png" alt="" />
@@ -37,7 +41,7 @@ const DisplayProjects = () => {
             </div>
           </div>
         </div>
-        <div className="second-project-container ">
+        <div className="second-project-container  ">
           <div className="project-img">
             {/* <a href="https://ibb.co/Q9pBXBg"><img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="Screenshot-21" border="0"></a> */}
             <img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="" />
@@ -58,9 +62,9 @@ const DisplayProjects = () => {
             
             </ul>
             <div className="icon-container">
-           <a href="/">   <FiGithub className="icon" /></a>
+           <a href="/"> <FiGithub  className="icon" /></a>
 
-           <a href="/">   <FaExternalLinkAlt
+           <a href="/">   <FaExternalLinkAlt title="live site Link"
                 className="icon"
                 style={{ width: "18px", height: "18px" }}
               /></a>
