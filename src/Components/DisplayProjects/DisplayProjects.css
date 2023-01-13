@@ -182,7 +182,6 @@
     width: 75%;
     height: 1674px;
     margin: 0 auto;
-   
   }
   .project-container {
     display: grid;
@@ -190,12 +189,14 @@
     position: relative;
     /* top: 50px; */
     /* right: 14%; */
+    margin-bottom: 80px;
   }
   .second-project-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     position: relative;
     bottom: 295px;
+    margin-bottom: 80px;
     /* left: -14%; */
   }
   .third-project-container {
@@ -251,10 +252,11 @@
   .project-tools-list {
     position: relative;
     top: -130%;
-    right: 10%;
-    width: 80%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
     font-size: 17px;
     gap: 4px;
     align-items: center;

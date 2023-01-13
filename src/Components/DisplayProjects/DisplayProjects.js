@@ -8,7 +8,7 @@ const DisplayProjects = () => {
   return (
     <div>
       <section className="display-projects">
-        <div className="project-container mb-5 pb-5">
+        <div className="project-container">
           <div className="project-img">
             <img src="https://i.ibb.co/kXx4Gkq/Screenshot-20.png" alt="" />
           </div>
@@ -37,7 +37,7 @@ const DisplayProjects = () => {
             </div>
           </div>
         </div>
-        <div className="second-project-container mb-5 pb-5">
+        <div className="second-project-container ">
           <div className="project-img">
             {/* <a href="https://ibb.co/Q9pBXBg"><img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="Screenshot-21" border="0"></a> */}
             <img src="https://i.ibb.co/rkFPvPj/Screenshot-21.png" alt="" />
