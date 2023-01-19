@@ -1,16 +1,106 @@
 import React from "react";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
-// import { Link } from "react-router-dom";
+
 import "./DisplayProjects.css";
 
 const DisplayProjects = () => {
   return (
     <div id="project">
-      <section className="display-projects" >
+
+  {/* <section className="container">
+<div className="card-container">
+<div class="card mb-3" style={{"max-width": "540px", "--delay": "-1"}}>
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div className="card-container">
+<div class="card mb-3" style={{"max-width": "540px","--delay": "0"}}>
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div className="card-container">
+<div class="card mb-3" style={{"max-width": "540px","--delay": "1"}}>
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div className="card-container">
+<div class="card mb-3" style={{"max-width": "540px","--delay": "2"}}>
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div className="card-container">
+<div class="card mb-3" style={{"max-width": "540px","--delay": "3"}}>
+  <div class="row g-0">
+    <div class="col-md-4">
+      <img src="..." class="img-fluid rounded-start" alt="..."/>
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  </section> */}
+
+      
+      <section className="display-projects">
         <div>
-          <h3 className="section-heading"> <span className="section-serial">03.</span> Some Things I've Built <span><hr className="display-project-hr" /></span></h3>
-          
+          <h3 className="section-heading">
+            {" "}
+            <span className="section-serial">03.</span> Some Things I've Built{" "}
+            <span>
+              <hr className="display-project-hr" />
+            </span>
+          </h3>
         </div>
         <div className="project-container">
           <div className="project-img">
@@ -29,15 +119,20 @@ const DisplayProjects = () => {
               <li>Elementor</li>
               <li>Elementor Pro</li>
               {/* <li>Payment Gateway</li> */}
-            
             </ul>
             <div className="icon-container">
-           <a href="/">   <FiGithub className="icon" /></a>
+              <a href="/">
+                {" "}
+                <FiGithub className="icon" />
+              </a>
 
-           <a href="/">   <FaExternalLinkAlt
-                className="icon"
-                style={{ width: "18px", height: "18px" }}
-              /></a>
+              <a href="/">
+                {" "}
+                <FaExternalLinkAlt
+                  className="icon"
+                  style={{ width: "18px", height: "18px" }}
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -59,15 +154,21 @@ const DisplayProjects = () => {
               <li>CSS</li>
               {/* <li>Elementor Pro</li> */}
               {/* <li>Payment Gateway</li> */}
-            
             </ul>
             <div className="icon-container">
-           <a href="/"> <FiGithub  className="icon" /></a>
+              <a href="/">
+                {" "}
+                <FiGithub className="icon" />
+              </a>
 
-           <a href="/">   <FaExternalLinkAlt title="live site Link"
-                className="icon"
-                style={{ width: "18px", height: "18px" }}
-              /></a>
+              <a href="/">
+                {" "}
+                <FaExternalLinkAlt
+                  title="live site Link"
+                  className="icon"
+                  style={{ width: "18px", height: "18px" }}
+                />
+              </a>
             </div>
           </div>
         </div>
@@ -89,15 +190,20 @@ const DisplayProjects = () => {
               <li>CSS</li>
               <li>Bootstrap</li>
               {/* <li>Payment Gateway</li> */}
-            
             </ul>
             <div className="icon-container">
-           <a href="/">   <FiGithub className="icon" /></a>
+              <a href="/">
+                {" "}
+                <FiGithub className="icon" />
+              </a>
 
-           <a href="/">   <FaExternalLinkAlt
-                className="icon"
-                style={{ width: "18px", height: "18px" }}
-              /></a>
+              <a href="/">
+                {" "}
+                <FaExternalLinkAlt
+                  className="icon"
+                  style={{ width: "18px", height: "18px" }}
+                />
+              </a>
             </div>
           </div>
         </div>

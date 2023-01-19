@@ -1,60 +1,20 @@
 .navbar {
-  background-color: #0a192f;
+  background-image: linear-gradient(to right, #164A41,#4D774E,#9DC88D);
 }
-.logo{
-  border-color: #64ffda;
-  color: #64ffda;
-  width: 62px;
-  height: 62px;
-  /* border: 1px solid ; */
+.nav-link{
+  font-family: JetBrains Mono;
+  color: white;
+  margin-right: 25px;
+  
 }
-.logo:hover{
-  border-color: #64ffda;
-  color: #64ffda;
-  width: 62px;
-  height: 62px;
+.nav-link:hover{
+  font-family: JetBrains Mono;
+  color: #eeb95e;
+  margin-right: 25px;
+  
+  
 }
-.logo-name{
-    font-family: JetBrains 'Courier New', Courier, monospace;
-    position: relative;
-    right: 49px;
-    top: 5px;
-}
-.logo-name:hover{
-    color: aliceblue;
-    
+.navbar-nav {
+  margin-right: 50px;
 }
 
-
-
-/* .navbar-brand{
-  width: 100px;
-  height: 57.735px;
-  background: red;
-  border: 1px solid red;
-  position: relative;
-  margin-top: 30px;
-}
-.navbar-brand::before{
-    content: "";
-    position: absolute;
-    top: -28.8675px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-bottom: 28.8675px solid red;
-    border-right: 50px solid transparent;
-
-}
-.navbar-brand::after{
-    content: "";
-    position: absolute;
-    bottom: -28.8675px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 28.8675px solid red;
-} */

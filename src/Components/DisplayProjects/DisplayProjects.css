@@ -119,6 +119,10 @@
 .icon:hover {
   color: #64ffda;
 }
+
+
+
+
 @media screen and (max-width: 576px) {
   .project-container {
     display: grid;
@@ -307,3 +311,6 @@
     opacity: 0.1;
   }
 }
+
+
+
