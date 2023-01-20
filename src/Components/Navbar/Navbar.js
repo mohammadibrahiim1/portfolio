@@ -9,9 +9,10 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar sticky-top  navbar-expand-lg py-3">
-        <div className="container">
+        <div className="container-fluid">
           <a className="navbar-brand ms-5" href="/">
-            <BsHexagon className="logo" /> <span className="logo-name"></span>
+            ME
+            {/* <BsHexagon className="logo" /> <span className="logo-name"></span> */}
           </a>
           <button
             className="navbar-toggler"
@@ -56,7 +57,7 @@ const Navbar = () => {
                 </a>
               </li>
             </ul>
-            <button type="button" class="btn btn-secondary">
+            <button type="button" class="navbar-button">
               resume
             </button>
           </div>

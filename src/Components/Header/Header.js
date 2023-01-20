@@ -1,7 +1,13 @@
 import React from "react";
+// import Typewriter from 'typewriter-effect/dist/core';
+import Typewriter from 'typewriter-effect';
 import './Header.css'
 
 const Header = () => {
+  // new Typewriter('#typewriter', {
+  //   strings: ['Hello', 'World'],
+  //   autoStart: true,
+  // });
   return (
     <div>
       <section
@@ -13,10 +19,19 @@ const Header = () => {
           <div className="row justify-content-md-start      ms-lg-5 ps-lg-5 ms-sm-0">
             <div className="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-8 text-md-start">
               <h6>Hi, My name is</h6>
-              <h1 className="display-3 fw-bold mb-3 mt-3">
-                Mohammad Ibrahim <br />
-                <span className="mt-2 title">Front-end Web Developer</span>
-              </h1>
+              
+              <Typewriter
+  options={{
+    strings: ['<h1>Mohammmad Ibrahim</h1>', '<h2>Front-end Web Developer</h2>' ],
+    autoStart: true,
+    loop: true,
+  }}
+/>
+
+              {/* <h1 className="display-3 fw-bold mb-3 mt-3">
+                Mohammad Ibrahim <br /> */}
+                {/* <span className="mt-2 title">Front-end Web Developer</span>
+              </h1> */}
               <p className="lead mb-5 mt-4 col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-8 ">
                 Powerful, extensible, and feature-packed frontend toolkit. Build
                 and customize with Sass, utilize prebuilt grid system and
