@@ -1,0 +1,48 @@
+.modal-button{
+    font-family: monospace;
+    font-size: 17px;
+    padding: 4px 10px;
+    border: 1px solid #abb2bf ;
+    background-color: #282C33;
+    color: #dfdbd9;
+    border-radius: 7px;
+    margin-right: 35px;
+  }
+  .modal-button:hover{
+    color: #888685;
+  }
+  .modal-content{
+    background-color: #282C33;
+  }
+  .modal-title{
+    font-family: monospace;
+    color: #abb2bf;
+  }
+
+  .modal-submit-button{
+    font-family: monospace;
+    font-size: 17px;
+    padding: 4px 10px;
+    border: 1px solid #abb2bf ;
+    background-color: #282C33;
+    color: #dfdbd9;
+    border-radius: 7px;
+    margin-right: 35px;
+  }
+  .modal-submit-button:hover{
+    color: #888685;
+  }
+
+  .form-control{
+    background-color: #282C33;
+    border: 1px solid #888685;
+    border-radius: 0;
+  }
+  .form-label{
+    color: #abb2bf;
+  }
+  .textarea{
+    background-color: #282C33;
+    padding-left: 5px;
+    font-family: monospace;
+  }
