@@ -1,3 +1,36 @@
-.title{
-    color: #4DA8DA;
+.container {
+  padding-top: 180px;
+  margin-bottom: 180px;
+}
+.header-paragraph {
+  font-family: monospace;
+  font-size: 17px;
+  color: #a7a4a3;
+  text-align: justify;
+}
+.header-tille {
+  font-family: monospace;
+  font-size: 52px;
+  color: #cac8c7;
+  font-weight: 700;
+}
+.header-tille span {
+  color: peru;
+}
+h6 {
+  color: palegoldenrod;
+  font-family: monospace;
+}
+.header-button{
+    border: 1px solid palegoldenrod;
+    border-radius: 0;
+    background-color: #282C33;
+    color: #a7a4a3;
+
+}
+.header-button:hover{
+    border-radius: 0;
+    background-color: #282C33;
+    color: palegoldenrod;
+
 }

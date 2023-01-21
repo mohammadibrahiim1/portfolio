@@ -1,97 +1,156 @@
 import React from "react";
 import "./ProjectSlider.css";
 
+// <a href="https://ibb.co/x3T9Ypp"><img src="https://i.ibb.co/yVjvpww/Screenshot-20.png" alt="Screenshot-20" border="0"></a>
+{
+  /* <a href="https://ibb.co/9gLsqrw"><img src="https://i.ibb.co/H4snrHN/Screenshot-21.png" alt="Screenshot-21" border="0"></a> */
+}
+{
+  /* <a href="https://ibb.co/rH1zx32"><img src="https://i.ibb.co/HqkbtCT/Screenshot-22.png" alt="Screenshot-22" border="0"></a> */
+}
+{
+  /* <a href="https://ibb.co/rQCCfSC"><img src="https://i.ibb.co/6y33Jx3/Screenshot-29.png" alt="Screenshot-29" border="0"></a> */
+}
+{
+  /* <a href="https://ibb.co/fq9Hvvh"><img src="https://i.ibb.co/djtDggd/Screenshot-30.png" alt="Screenshot-30" border="0"></a> */
+}
+
 const ProjectSlider = () => {
   return (
     <div id="project">
       <section>
         <div className="project-slider-header">
-            <h1>some things i've built</h1>
+          <h1>Projects I've Built</h1>
         </div>
         <div className="cards">
           <div className="outer">
-            <div class="card" style={{ width: "18rem", "--delay": "-1" }} >
+            <div class="card" style={{ width: "18rem", "--delay": "-1" }}>
               <img
-                src="https://img.freepik.com/free-vector/cartoon-web-design-background_52683-70879.jpg?w=2000"
+                src="https://i.ibb.co/H4snrHN/Screenshot-21.png"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title1</h5>
+                <h5 class="card-title">Donate Today</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                  </ul>
                 </p>
-                <a href="https://www.youtube.com/results?search_query=vertical+slider+" class="btn btn-primary">
-                  Go somewhere
+                <p className="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                </p>
+                <a href="/" class="slider-button">
+                  Live
+                </a>
+                <a href="/" class="slider-button">
+                  Github
                 </a>
               </div>
             </div>
-            <div class="card" style={{ width: "18rem","--delay": "0" }}>
+            <div class="card" style={{ width: "18rem", "--delay": "0" }}>
               <img
-                src="https://img.freepik.com/free-vector/cartoon-web-design-background_52683-70879.jpg?w=2000"
+                src="https://i.ibb.co/yVjvpww/Screenshot-20.png"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">RS IT</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <ul>
+                    <li>Wordpress</li>
+                    <li>Elementor</li>
+                    <li>Astra</li>
+                  </ul>
                 </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+                <a href="/" class="slider-button">
+                  Live
+                </a>
+                <a href="/" class="slider-button">
+                  Github
                 </a>
               </div>
             </div>
-            <div class="card" style={{ width: "18rem" , "--delay": "1" }}>
+            <div class="card" style={{ width: "18rem", "--delay": "1" }}>
               <img
-                src="https://img.freepik.com/free-vector/cartoon-web-design-background_52683-70879.jpg?w=2000"
+                src="https://i.ibb.co/HqkbtCT/Screenshot-22.png"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">LMS-Educare</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Bootstrap</li>
+                  </ul>
                 </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
+                <p class="card-text">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </p>
+                <a href="/" class="slider-button">
+                  Live
+                </a>
+                <a href="/" class="slider-button">
+                  Github
                 </a>
               </div>
             </div>
-            <div class="card" style={{ width: "18rem","--delay": "2" }}>
+            <div class="card" style={{ width: "18rem", "--delay": "2" }}>
               <img
-                src="https://img.freepik.com/free-vector/cartoon-web-design-background_52683-70879.jpg?w=2000"
+                src="https://i.ibb.co/6y33Jx3/Screenshot-29.png"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">News Website</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <ul>
+                    <li>Html</li>
+                    <li>Css</li>
+                    <li>Bootstrap</li>
+                    <li>JavaScript</li>
+                  </ul>
                 </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
+                <p class="card-text">
+                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                </p>
+                <a href="/" class="slider-button">
+                  Live
+                </a>
+                <a href="/" class="slider-button">
+                  Github
                 </a>
               </div>
             </div>
-            <div class="card" style={{ width: "18rem","--delay": "3" }}>
+            <div class="card" style={{ width: "18rem", "--delay": "3" }}>
               <img
-                src="https://img.freepik.com/free-vector/cartoon-web-design-background_52683-70879.jpg?w=2000"
+                src="https://i.ibb.co/djtDggd/Screenshot-30.png"
                 class="card-img-top"
                 alt="..."
               />
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Quizzz Master</h5>
                 <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                  <ul>
+                    {/* <li>Bootstrap</li> */}
+                    <li>JavaScript</li>
+                    <li>React-router</li>
+                  </ul>
                 </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
+                <p class="card-text">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+                <a href="/" class="slider-button">
+                  Live
+                </a>
+                <a href="/" class="slider-button">
+                  Github
                 </a>
               </div>
             </div>

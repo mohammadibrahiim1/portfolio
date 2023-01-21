@@ -94,12 +94,10 @@ const DisplayProjects = () => {
       
       <section className="display-projects">
         <div>
-          <h3 className="section-heading">
+          <h3 className="d-project-section-heading">
             {" "}
-            <span className="section-serial">03.</span> Some Things I've Built{" "}
-            <span>
-              <hr className="display-project-hr" />
-            </span>
+           Some Things I've Built
+           
           </h3>
         </div>
         <div className="project-container">

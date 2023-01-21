@@ -1,24 +1,59 @@
-.project-slider-header h1{
-  display: grid;
-  place-items: center;
-  padding-top: 150px;
-  font-family: JetBrains Mono;
+.project-slider-header h1 {
+  font-family: monospace;
+  font-size: 42px;
+  color: palegoldenrod;
   text-transform: capitalize;
-  color:#EEE0FF;
-  font-weight: 700;
+  text-align: center;
+}
+.card-title{
+  font-size: 17px;
+  color: palegoldenrod;
+  font-family: monospace;
+}
+.card-text ul{
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: -30px;
+  gap: 10px;
+  letter-spacing: .5px;
+  list-style-type: none;
+  color: palegoldenrod;
+}
+.card-text{
+  font-family: monospace;
+  color: #ABB2BF;
+  font-weight: 500;
+}
+.slider-button{
+  border: 1px solid palegoldenrod;
+  font-family: monospace;
+  font-size: 15px;
+  color: peachpuff;
+  padding: 3px 15px;
+  text-decoration: none;
+  margin-right: 5px;
+
+
+
 }
 .cards {
   display: grid;
   place-items: center;
-  min-height: 80vh;
+  min-height: 60vh;
 }
 .card {
   margin: 20px;
+  background-color: #282C33;
+  border: 1px solid #ABB2BF;
+  
+   
 }
 .outer {
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .cards .card {
