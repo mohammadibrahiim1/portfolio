@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Project from "../Project/Project";
+import './Projects.css'
 
 const Projects = () => {
   const [projects, setProjects] = useState([]);
@@ -25,7 +26,7 @@ const Projects = () => {
     <div id="project">
       <section className="w-75 m-auto">
         <div className="text-center pb-5">
-          <h3 className="projects-heading">Other Noteworthy Projects</h3>
+          <h3 className="projects-heading">Other Projects</h3>
           <Link className="projects-sub-heading">
             <p>see the archive</p>
           </Link>
