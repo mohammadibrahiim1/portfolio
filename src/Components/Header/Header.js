@@ -12,7 +12,7 @@ const Header = () => {
     <div>
       <section 
         className="px-5 py-6 py-xxl-10 hcf-bp-center hcf-bs-cover hcf-overlay hcf-transform header "
-        id="#"
+        id="home"
         // style="background-image: url('./assets/img/heroes/hero-1/hero-main.jpg');"
       >
         <div className="container">
