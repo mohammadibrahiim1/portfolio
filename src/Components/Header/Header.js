@@ -16,7 +16,7 @@ const Header = () => {
         // style="background-image: url('./assets/img/heroes/hero-1/hero-main.jpg');"
       >
         <div className="container">
-          <div className="row justify-content-md-start      ms-lg-5 ps-lg-5 ms-sm-0">
+          <div className="row justify-content-md-start ms-lg-5 ps-lg-5 ms-sm-0">
             <div className="col-12 col-md-11 col-lg-9 col-xl-7 col-xxl-8 text-md-start">
               <h6>Hello,</h6>
               <h1 className="header-tille"> Mohammad Ebrahim is <br/> a <span>front-end</span> Web developer              
