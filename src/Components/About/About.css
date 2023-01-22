@@ -35,6 +35,7 @@
 .info-container p{
     color: #ABB2BF;
     font-family: monospace;
+    margin-bottom: 30px;
     
 }
 .my-info-button{
@@ -42,8 +43,9 @@
     font-family: monospace;
     font-size: 15px;
     color: peachpuff;
-    padding: 7px 15px;
+    padding: 9px 15px;
     text-decoration: none;
     margin-right: 5px;
+    border-radius: 7px;
 }
 

@@ -22,14 +22,16 @@ h6 {
   font-family: monospace;
 }
 .header-button{
-    border: 1px solid palegoldenrod;
-    border-radius: 0;
-    background-color: #282C33;
-    color: #a7a4a3;
+  border: 1px solid palegoldenrod;
+  font-family: monospace;
+  font-size: 15px;
+  color: peachpuff;
+  padding: 9px 15px;
+  text-decoration: none;
+  margin-right: 5px;
 
 }
 .header-button:hover{
-    border-radius: 0;
     background-color: #282C33;
     color: palegoldenrod;
 

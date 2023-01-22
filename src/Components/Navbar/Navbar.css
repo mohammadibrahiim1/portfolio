@@ -22,13 +22,13 @@
 .navbar-button{
   font-family: monospace;
   font-size: 17px;
-  padding: 4px 10px;
-  border: 1px solid #abb2bf ;
+  padding: 5px 10px;
+  border: 1px solid palegoldenrod;
   background-color: #282C33;
-  color: #dfdbd9;
+  color: palegoldenrod;
   border-radius: 7px;
   margin-right: 35px;
 }
 .navbar-button:hover{
-  color: #888685;
+  color: peachpuff;
 }
