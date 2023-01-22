@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import "./ProjectSlider.css";
 
 // <a href="https://ibb.co/x3T9Ypp"><img src="https://i.ibb.co/yVjvpww/Screenshot-20.png" alt="Screenshot-20" border="0"></a>
@@ -16,9 +17,10 @@ import "./ProjectSlider.css";
 }
 
 const ProjectSlider = () => {
+
   return (
     <div id="project">
-      <section>
+      <section className="slider-section">
         <div className="project-slider-header">
           <h1>Projects I've Built</h1>
         </div>

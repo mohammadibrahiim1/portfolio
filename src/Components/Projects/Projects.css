@@ -1,6 +1,9 @@
 .projects-heading{
+    width: 1027px;
+    margin: 0 auto;
     color: palegoldenrod;
     font-size: 32px;
     font-family: monospace;
     text-transform: capitalize;
+    text-align: left;
 }

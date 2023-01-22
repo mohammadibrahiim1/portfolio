@@ -3,9 +3,14 @@
   font-size: 42px;
   color: palegoldenrod;
   text-transform: capitalize;
-  text-align: center;
+  text-align: left;
   margin-top: 375px;
   padding-top: 175px;
+
+}
+.slider-section{
+  width: 1027px;
+  margin: 0 auto;
 
 }
 .card-title{
