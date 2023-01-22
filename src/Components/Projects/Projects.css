@@ -7,3 +7,18 @@
     text-transform: capitalize;
     text-align: left;
 }
+.projects-filter-nav{
+    width: 1027px;
+    margin: 0 auto;
+
+}
+.filter-button{
+    border: 1px solid #282c33;
+    font-family: monospace;
+    font-size: 15px;
+    color: peachpuff;
+    padding: 3px 15px;
+    text-decoration: none;
+    margin-right: 15px;
+    background-color: #282c33 ;
+}

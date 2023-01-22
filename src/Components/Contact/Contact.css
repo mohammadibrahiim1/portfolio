@@ -1,65 +1,36 @@
-.modal-button {
+.contact-section {
+  width: 1027px;
+  margin: 0 auto;
+  margin-top: 175px;
+  padding-top: 175px;
+}
+.contact-title {
+  font-size: 42px;
+  color: palegoldenrod;
+  font-family: monospace;
+  font-weight: 600;
+}
+.contact-info-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.contact-info-container p {
+  width: 675px;
+  color: #ABB2BF;
   font-family: monospace;
   font-size: 17px;
-  padding: 4px 10px;
-  border: 1px solid #abb2bf;
-  background-color: #282c33;
-  color: #dfdbd9;
-  border-radius: 7px;
- 
 }
-.modal-button:hover {
-  color: #888685;
+.contact-link {
+  border: 1px solid palegoldenrod;
+  padding: 25px;
+  border-radius: 5px;
+  color: azure;
 }
-.modal-content {
-  background-color: #282c33;
+.text-decoration-none {
+  color: palegoldenrod;
 }
-.modal-title {
-  font-family: monospace;
-  color: #abb2bf;
-}
-
-.modal-submit-button {
-  font-family: monospace;
-  font-size: 17px;
-  padding: 4px 10px;
-  border: 1px solid #abb2bf;
-  background-color: #282c33;
-  color: #dfdbd9;
-  border-radius: 7px;
-  margin-right: 35px;
-}
-.modal-submit-button:hover {
-  color: #888685;
-}
-
-.form-control {
-  background-color: #282c33;
-  border: 1px solid #888685;
-  border-radius: 0;
-  color: #abb2bf;
-}
-.form-label {
-  color: #888685;
-}
-.textarea {
-  background-color: #282c33;
-  padding-left: 5px;
-  font-family: monospace;
-  color: #dfdbd9;
-}
-
-.what-next{
-    color: #dfdbd9;
-
-}
-.getinTouch{
-    font-size: 42px;
-    color: #dfdbd9;
-    font-family: monospace;
-  
-}
-.contact-section{
-    margin-top: 300px;
-    margin-bottom: 120px;
+.text-decoration-none:hover {
+  color: peachpuff;
 }

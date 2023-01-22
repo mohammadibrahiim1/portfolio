@@ -1,8 +1,8 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 // import { Link } from "react-router-dom";
 import Project from "../Project/Project";
 import "./Projects.css";
-import {Menu} from '../../data'
+import {Menu} from './ProjectsData'
 
 const Projects = () => {
   const [projects, setProjects] = useState(Menu);
@@ -40,35 +40,41 @@ const Projects = () => {
             <p>see the archive</p>
           </Link> */}
         </div>
-        <div>
+        <div className="projects-filter-nav">
           <button
-            className="btn btn-primary"
+            className="filter-button"
             onClick={() => filterItem("HTML")}
           >
             Html
           </button>
           <button
-            className="btn btn-primary"
+            className="filter-button"
             onClick={() => filterItem("Bootstrap")}
           >
             Bootstrap
           </button>
           <button
-            className="btn btn-primary"
+            className="filter-button"
             onClick={() => filterItem("Javascript")}
           >
             JavaScript
           </button>
           <button
-            className="btn btn-primary"
+            className="filter-button"
             onClick={() => filterItem("React")}
           >
             React
           </button>
+          <button
+            className="filter-button"
+            onClick={() => setProjects(Menu)}
+          >
+            All Projects
+          </button>
         </div>
         <div className="col col-sm-12 col-md-12 col-lg-9 m-auto ">
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-0">
-            {projects.map((project) => (
+            {projects.slice(0,6).map((project) => (
               <Project project={project} id={project._id}></Project>
             ))}
           </div>
