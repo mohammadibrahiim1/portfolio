@@ -1,0 +1,24 @@
+.footer-section{
+    width: 1027px;
+    margin: 0 auto;
+}
+.footer-link{
+    color: palegoldenrod;
+    text-decoration: none;
+    font-family: monospace;
+
+}
+.copyright{
+    color: peru;
+    font-family: monospace;
+}
+.text-secondary{
+   font-family: monospace;
+    color: rgb(212, 212, 212) !important;
+}
+
+.social-icon{
+    color: palegoldenrod;
+    height: 22px;
+    width: 22px;
+}

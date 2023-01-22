@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import './Footer.css'
 import {
   FaFacebook,
   FaGithub,
@@ -10,7 +10,7 @@ import {
 const Footer = () => {
   return (
     <div>
-      <section class="py-3 py-md-4 py-xl-6">
+      <section class="py-3 py-md-4 py-xl-6 footer-section">
         <div class="container overflow-hidden">
           <div class="row gy-5 gy-md-0">
             <div class="col-xs-12 col-md-7 order-1 order-md-0">
