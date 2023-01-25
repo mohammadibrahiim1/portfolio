@@ -11,7 +11,7 @@ const Project = ({ project }) => {
   return (
     <div>
       <div class="col">
-        <div class="card pt-4" style={{ height: "353px" }}>
+        <div class="card shadow pt-4" style={{ height: "353px" }}>
           <div className="project-icon-container">
             <div>
               <FaRegFolder

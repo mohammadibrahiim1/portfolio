@@ -1,14 +1,17 @@
 .projects-heading {
-  width: 1027px;
-  margin: 0 auto;
-  color: palegoldenrod;
-  font-size: 32px;
-  font-family: monospace;
+  /* width: 1027px; */
+  /* margin: 0 auto; */
+  color: #ABB2BF;
+  font-size: 35px;
+  font-family: 'Fira Code', monospace;
   text-transform: capitalize;
   text-align: left;
 }
+.all-project-section{
+  width: 1124px;
+}
 .projects-filter-nav {
-  width: 1027px;
+  width: 1124px;
   margin: 0 auto;
 }
 .filter-button {

@@ -6,7 +6,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div>
-      <section class="contact-section" id="contact">
+      <section class="container contact-section" id="contact">
         <div>
           <h3 className="contact-title">Contact Me</h3>
         </div>
@@ -14,12 +14,7 @@ const Contact = () => {
         <div className="contact-info-container">
           <div>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore
-              dicta repellat molestias beatae architecto consequatur, molestiae
-              facere ipsam quo aspernatur qui magni. Saepe aliquam magni ad,
-              delectus nihil aut veritatis laborum sunt quia omnis, qui
-              repudiandae cum cupiditate laudantium praesentium esse eum vero
-              dolorum unde, voluptatem voluptas! Aliquid, omnis error.
+            I’m interested in freelance or remote opportunities. However, if you have other request or question, don’t shilly-shally to contact me.
             </p>
           </div>
           <div className="contact-link">

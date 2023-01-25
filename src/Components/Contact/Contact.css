@@ -1,36 +1,37 @@
 .contact-section {
-  width: 1027px;
+  width: 1124px;
   margin: 0 auto;
-  margin-top: 175px;
+  /* margin-top: 175px; */
   padding-top: 175px;
+  padding-bottom: 175px;
 }
 .contact-title {
-  font-size: 42px;
-  color: palegoldenrod;
-  font-family: monospace;
+  font-size: 35px;
+  color: #ABB2BF;
+  font-family: 'Fira Code', monospace;
   font-weight: 600;
 }
 .contact-info-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   margin-top: 50px;
 }
 .contact-info-container p {
   width: 675px;
   color: #ABB2BF;
-  font-family: monospace;
+  font-family: 'Fira Code', monospace;
   font-size: 17px;
 }
 .contact-link {
-  border: 1px solid palegoldenrod;
+  border: 1px solid #ABB2BF ;
   padding: 25px;
-  border-radius: 5px;
   color: azure;
 }
 .text-decoration-none {
-  color: palegoldenrod;
+  color: #ABB2BF;
 }
 .text-decoration-none:hover {
-  color: peachpuff;
+  color: #888b91;
 }

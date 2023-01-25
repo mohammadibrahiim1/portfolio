@@ -33,14 +33,14 @@ const Projects = () => {
   // const projectsData = projects.slice(0,6)
   return (
     <div id="project">
-      <section className="w-75 m-auto all-projects-section">
-        <div className=" pb-5">
-          <h3 className="projects-heading">Other Projects</h3>
+      <section className="container all-project-section">
+        <div className="">
+          <h3 className="projects-heading mt-5">Other Projects</h3>
           {/* <Link className="projects-sub-heading text-center">
             <p>see the archive</p>
           </Link> */}
         </div>
-        <div className="projects-filter-nav">
+        <div className="projects-filter-nav mt-4">
           <button
             className="filter-button"
             onClick={() => filterItem("HTML")}
@@ -72,7 +72,7 @@ const Projects = () => {
             All Projects
           </button>
         </div>
-        <div className="col col-sm-12 col-md-12 col-lg-9 m-auto ">
+        <div className="col col-sm-12 col-md-12 col-lg-12 m-auto mt-3">
           <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-0">
             {projects.slice(0,6).map((project) => (
               <Project project={project} id={project._id}></Project>

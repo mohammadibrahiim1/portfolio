@@ -20,7 +20,7 @@ const ProjectSlider = () => {
 
   return (
     <div id="project">
-      <section className="slider-section">
+      <section className="container slider-section">
         <div className="project-slider-header">
           <h1>Projects I've Built</h1>
         </div>
