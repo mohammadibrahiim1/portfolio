@@ -1,10 +1,10 @@
 .project-slider-header h1 {
-  font-family: monospace;
-  font-size: 42px;
-  color: palegoldenrod;
+  font-family: 'Fira Code', monospace;
+  font-size: 35px;
+  color: #ABB2BF;
   text-transform: capitalize;
   text-align: left;
-  margin-top: 375px;
+  margin-top: 175px;
   padding-top: 175px;
 }
 .slider-section {
@@ -13,7 +13,7 @@
 }
 .card-title {
   font-size: 17px;
-  color: palegoldenrod;
+  color: #FFFFFF;
   font-family: monospace;
 }
 .card-text ul {

@@ -1,38 +1,35 @@
-.container {
-  padding-top: 150px;
-
-}
 .header-paragraph {
-  font-family: monospace;
+  font-family: "Fira Code", monospace;
   font-size: 17px;
   color: #a7a4a3;
   text-align: justify;
 }
+
+.header-container {
+  width: 1124px;
+  margin: 0 auto;
+  display: flex;
+  /* grid-template-columns: repeat(2, 1fr); */
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 200px;
+}
 .header-tille {
-  font-family: monospace;
-  font-size: 52px;
+  font-family: "Fira Code", monospace;
+  font-size: 35px;
   color: #cac8c7;
-  font-weight: 700;
 }
-.header-tille span {
-  color: peru;
-}
-h6 {
-  color: palegoldenrod;
-  font-family: monospace;
-}
-.header-button{
+
+.btn-outline-light {
   border: 1px solid palegoldenrod;
-  font-family: monospace;
   font-size: 15px;
   color: peachpuff;
   padding: 9px 15px;
   text-decoration: none;
   margin-right: 5px;
-
+  font-family: "fira code", monospace;
 }
-.header-button:hover{
-    background-color: #282C33;
-    color: palegoldenrod;
-
+.btn-outline-light:hover {
+  background-color: #282c33;
+  color: #abb2bf;
 }

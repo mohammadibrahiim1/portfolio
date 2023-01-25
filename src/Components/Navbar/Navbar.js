@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar sticky-top  navbar-expand-lg py-3">
-        <div className="container-fluid">
+        <div className="container">
           <a className="navbar-brand ms-5" href="/">
             ME
             {/* <BsHexagon className="logo" /> <span className="logo-name"></span> */}

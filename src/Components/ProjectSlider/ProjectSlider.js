@@ -150,7 +150,7 @@ const ProjectSlider = () => {
                 </p>
                 <a href="/" class="slider-button">
                   Live
-                </a>
+                </a> 
                 <a href="/" class="slider-button">
                   Github
                 </a>
