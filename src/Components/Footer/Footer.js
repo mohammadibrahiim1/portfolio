@@ -12,7 +12,7 @@ const Footer = () => {
     <div>
       <section class="py-3 py-md-4 py-xl-6 footer-section">
         <div class="container overflow-hidden">
-          <div class="row gy-5 gy-md-0">
+          <div class="row gy-5 gy-md-0 ">
             <div class="col-xs-12 col-md-7 order-1 order-md-0">
               <div class="copyright text-center text-md-start text-lg-start">
                 Designed & Built by{" "}
