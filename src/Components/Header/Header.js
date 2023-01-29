@@ -3,18 +3,18 @@ import "./Header.css";
 import TextScrambler from "react-scramble-text";
 
 const Header = () => {
-  const phrases = ["front-end develeper", "wordpress customization"];
+  const phrases = ["front-end develeper", "and do", "wordpress customization"];
   return (
     <div>
       <section className="container" id="home">
         <header className="header-container">
           <div>
+            <small className="text-white">hello, my name is</small>
             <h2 className="header-tille">
-              Ebrahim is a{" "}
+              Mohammad Ebrahim{" "}
               <span>
                 <TextScrambler phrases={phrases} speed={50} pauseTime={800} />{" "}
               </span>{" "}
-              and do
             </h2>
 
             <p className="header-paragraph mt-4">
