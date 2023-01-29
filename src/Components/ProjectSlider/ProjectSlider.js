@@ -1,28 +1,33 @@
 import React from "react";
-import { useState } from "react";
+// import { useState } from "react";
+import TextScrambler from "react-scramble-text";
+import { Cycler, Scrambler } from "react-text-scrambler";
 import "./ProjectSlider.css";
 
-// <a href="https://ibb.co/x3T9Ypp"><img src="https://i.ibb.co/yVjvpww/Screenshot-20.png" alt="Screenshot-20" border="0"></a>
-{
-  /* <a href="https://ibb.co/9gLsqrw"><img src="https://i.ibb.co/H4snrHN/Screenshot-21.png" alt="Screenshot-21" border="0"></a> */
-}
-{
-  /* <a href="https://ibb.co/rH1zx32"><img src="https://i.ibb.co/HqkbtCT/Screenshot-22.png" alt="Screenshot-22" border="0"></a> */
-}
-{
-  /* <a href="https://ibb.co/rQCCfSC"><img src="https://i.ibb.co/6y33Jx3/Screenshot-29.png" alt="Screenshot-29" border="0"></a> */
-}
-{
-  /* <a href="https://ibb.co/fq9Hvvh"><img src="https://i.ibb.co/djtDggd/Screenshot-30.png" alt="Screenshot-30" border="0"></a> */
-}
+// // <a href="https://ibb.co/x3T9Ypp"><img src="https://i.ibb.co/yVjvpww/Screenshot-20.png" alt="Screenshot-20" border="0"></a>
+// {
+//   /* <a href="https://ibb.co/9gLsqrw"><img src="https://i.ibb.co/H4snrHN/Screenshot-21.png" alt="Screenshot-21" border="0"></a> */
+// }
+// {
+//   /* <a href="https://ibb.co/rH1zx32"><img src="https://i.ibb.co/HqkbtCT/Screenshot-22.png" alt="Screenshot-22" border="0"></a> */
+// }
+// {
+//   /* <a href="https://ibb.co/rQCCfSC"><img src="https://i.ibb.co/6y33Jx3/Screenshot-29.png" alt="Screenshot-29" border="0"></a> */
+// }
+// {
+//   /* <a href="https://ibb.co/fq9Hvvh"><img src="https://i.ibb.co/djtDggd/Screenshot-30.png" alt="Screenshot-30" border="0"></a> */
+// }
 
 const ProjectSlider = () => {
+  const phrases = ["Some Projects I've Built", ""];
 
   return (
     <div id="project">
       <section className="container slider-section">
         <div className="project-slider-header">
-          <h1>Projects I've Built</h1>
+          <h1>
+            <TextScrambler phrases={phrases} speed={40} pauseTime={800} />{" "}
+          </h1>{" "}
         </div>
         <div className="cards">
           <div className="outer">
@@ -67,7 +72,7 @@ const ProjectSlider = () => {
                   </ul>
                 </p>
                 <p class="card-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <a href="/" class="slider-button">
                   Live
@@ -93,7 +98,7 @@ const ProjectSlider = () => {
                   </ul>
                 </p>
                 <p class="card-text">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 </p>
                 <a href="/" class="slider-button">
                   Live
@@ -120,7 +125,7 @@ const ProjectSlider = () => {
                   </ul>
                 </p>
                 <p class="card-text">
-                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <a href="/" class="slider-button">
                   Live
@@ -146,11 +151,11 @@ const ProjectSlider = () => {
                   </ul>
                 </p>
                 <p class="card-text">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                 </p>
                 <a href="/" class="slider-button">
                   Live
-                </a> 
+                </a>
                 <a href="/" class="slider-button">
                   Github
                 </a>

@@ -18,7 +18,7 @@ const Header = () => {
             </h2>
 
             <p className="header-paragraph mt-4">
-              He can Make Responsive website using programming tools. <br />{" "}
+              I can Make Responsive website using programming tools. <br />{" "}
               also expert in wordpress customization.
             </p>
             <div>
