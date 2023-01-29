@@ -1,39 +1,44 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import TextScrambler from "react-scramble-text";
 // import { Link } from "react-router-dom";
 import Project from "../Project/Project";
 import "./Projects.css";
-import {Menu} from './ProjectsData'
+// import {Menu} from './ProjectsData'
 
 const Projects = () => {
   const phrases = ["Other Projects", ""];
-  const [projects, setProjects] = useState(Menu);
-  // const [showMore, setShowMore] = useState(6);
+  // const [projects, setProjects] = useState([]);
+  // const [showMore, setShowMore] = useState([]);
 
-  // useEffect(() => {
-  //   fetch("projects.json")
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       setProjects(data);
-  //       console.log(data);
-  //     });
-  // }, []);
+  const [ allProjects , setAllProjects] = useState([]);
+  const [  projects, setProjects] = useState([]);
 
-  const filterItem = (categItem) => {
+  useEffect(() => {
+    fetch("http://localhost:5000/allprojects")
+      .then((res) => res.json())
+      .then((data) => {
+        setProjects(data);
+        setAllProjects(data)
+        console.log(data);
+      });
+  }, []);
+
+  const filterItem = (categoryItem) => {
     
-    const updateItems = Menu.filter((curElem) => {
-      return curElem.category === categItem;
+    const updateItems = allProjects.filter((currentElement) => {
+      return currentElement.category === categoryItem;
     });
 
     setProjects(updateItems);
   };
 
-  // const displayProject = () => {
-  //   setShowMore((projects)=> projects + projects);
-  //   console.log('first')
-  // };
+  const displayAllProjects = ()=> {
+    const allCategories = allProjects.map(project => {
+      return project;
+    } );
+    setProjects(allCategories);
+  }
 
-  // const projectsData = projects.slice(0,6)
   return (
     <div id="project">
       <section className="container all-project-section">
@@ -74,7 +79,7 @@ const Projects = () => {
           </button>
           <button
             className="filter-button"
-            onClick={() => setProjects(Menu)}
+            onClick={displayAllProjects}
           >
             All Projects
           </button>
