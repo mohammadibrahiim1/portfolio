@@ -14,7 +14,7 @@ const Projects = () => {
   const [  projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/allprojects")
+    fetch("https://portfolio-server-teal-nu.vercel.app/allprojects")
       .then((res) => res.json())
       .then((data) => {
         setProjects(data);
