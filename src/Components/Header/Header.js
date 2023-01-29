@@ -1,9 +1,9 @@
 import React from "react";
 import "./Header.css";
-// import TextScrambler from "react-scramble-text";
+import TextScrambler from "react-scramble-text";
 
 const Header = () => {
-  // const phrases = ["front-end develeper", "wordpress customization"];
+  const phrases = ["front-end develeper", "wordpress customization"];
   return (
     <div>
       <section className="container" id="home">
@@ -12,7 +12,7 @@ const Header = () => {
             <h2 className="header-tille">
               Ebrahim is a{" "}
               <span>
-                {/* <TextScrambler phrases={phrases} speed={50} pauseTime={800} />{" "} */}
+                <TextScrambler phrases={phrases} speed={50} pauseTime={800} />{" "}
               </span>{" "}
               and do
             </h2>
