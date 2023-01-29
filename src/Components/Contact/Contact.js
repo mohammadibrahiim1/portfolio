@@ -10,7 +10,7 @@ const Contact = () => {
     <div>
       <section class="container contact-section" id="contact">
         <div>
-          <h3 className="contact-title"><TextScrambler phrases={phrases} speed={70} pauseTime={3000} /></h3>
+          <h3 className="contact-title"><TextScrambler phrases={phrases} speed={50} pauseTime={2000} /></h3>
         </div>
 
         <div className="contact-info-container">
