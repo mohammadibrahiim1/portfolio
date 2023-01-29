@@ -13,7 +13,7 @@ const Header = () => {
             <h2 className="header-tille">
               Mohammad Ebrahim{" "}
               <span>
-                <TextScrambler phrases={phrases} speed={50} pauseTime={800} />{" "}
+                <TextScrambler phrases={phrases} speed={70} pauseTime={3000} />{" "}
               </span>{" "}
             </h2>
 

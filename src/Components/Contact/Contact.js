@@ -1,14 +1,16 @@
 import React from "react";
 import { FaLinkedinIn, FaRegEnvelope } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import TextScrambler from "react-scramble-text";
 // import {  } from 'react-icons/fa';
 import "./Contact.css";
 const Contact = () => {
+  const phrases = ["Contact Me", ""];
   return (
     <div>
       <section class="container contact-section" id="contact">
         <div>
-          <h3 className="contact-title">Contact Me</h3>
+          <h3 className="contact-title"><TextScrambler phrases={phrases} speed={70} pauseTime={3000} /></h3>
         </div>
 
         <div className="contact-info-container">

@@ -6,6 +6,8 @@
   padding-bottom: 175px;
 }
 .contact-title {
+  width: 100%;
+  height: 80px;
   font-size: 35px;
   color: #ABB2BF;
   font-family: 'Fira Code', monospace;

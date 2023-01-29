@@ -26,7 +26,7 @@ const ProjectSlider = () => {
       <section className="container slider-section">
         <div className="project-slider-header">
           <h1>
-            <TextScrambler phrases={phrases} speed={40} pauseTime={800} />{" "}
+            <TextScrambler phrases={phrases} speed={70} pauseTime={3000} />{" "}
           </h1>{" "}
         </div>
         <div className="cards">
