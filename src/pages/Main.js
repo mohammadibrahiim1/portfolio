@@ -1,6 +1,5 @@
 import About from "../Components/About/About";
 import Contact from "../Components/Contact/Contact";
-// import DisplayProjects from "../Components/DisplayProjects/DisplayProjects";
 import Footer from "../Components/Footer/Footer";
 import Header from "../Components/Header/Header";
 import Navbar from "../Components/Navbar/Navbar";
@@ -14,7 +13,6 @@ const Home = () => {
       <Header></Header>
       <About></About>
       <ProjectSlider></ProjectSlider>
-      {/* <DisplayProjects></DisplayProjects> */}
       <Projects></Projects>
       <Contact></Contact>
       <Footer></Footer>

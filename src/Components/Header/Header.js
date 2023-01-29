@@ -2,16 +2,22 @@ import React from "react";
 // import Typewriter from 'typewriter-effect/dist/core';
 // import Typewriter from 'typewriter-effect';
 import "./Header.css";
+import TextScrambler from 'react-scramble-text'
+// import 'react-scramble-text/dist/index.css'
 
 const Header = () => {
+  const phrases = ["front-end develeper", "wordpress customization"]
   return (
     <div>
       <section className="container" id="home">
+     
         <header className="header-container">
           <div>
             <h2 className="header-tille">
-              Ebrahim is a front-end   develeper <br /> and do wordpress
-              customization
+              Ebrahim is a <span><TextScrambler phrases={phrases}
+                          speed={50}
+                          pauseTime={800}/> </span>  and do
+              
             </h2>
 
             <p className="header-paragraph mt-4">
