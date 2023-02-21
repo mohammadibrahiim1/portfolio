@@ -1,5 +1,5 @@
 import React from "react";
-import { BsHexagon } from "react-icons/bs";
+// import { BsHexagon } from "react-icons/bs";
 import "./Navbar.css";
 // import { a } from "react-router-dom";
 // import { MobileIcon, Nav, NavbarContainer, NavItem, NavLogo, NavMenu } from "./NavbarElement";

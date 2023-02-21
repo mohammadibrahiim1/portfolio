@@ -2,10 +2,13 @@
   width: 1027px;
   height: 80px;
   /* margin: 0 auto; */
-  color: #ABB2BF;
-  font-size: 35px;
-  font-family: 'Fira Code', monospace;
-  text-transform: capitalize;
+  /* color: #ABB2BF; */
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 45px;
+  font-family: 'poppins', sans-serif;
+  text-transform: uppercase;
   text-align: left;
 }
 .all-project-section{

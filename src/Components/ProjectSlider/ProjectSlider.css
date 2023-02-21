@@ -1,8 +1,11 @@
 .project-slider-header h1 {
-  font-family: "Fira Code", monospace;
-  font-size: 35px;
-  color: #abb2bf;
-  text-transform: capitalize;
+  font-family: "poppins", sans-serif;
+  font-size: 45px;
+  /* color: #abb2bf; */
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: uppercase;
   text-align: left;
   margin-top: 175px;
   padding-top: 175px;

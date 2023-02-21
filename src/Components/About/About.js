@@ -1,13 +1,15 @@
 import React from "react";
 import "./About.css";
+import TextScrambler from "react-scramble-text";
 
 const About = () => {
+  const phrases = ["About Me",""];
   return (
     <div>
       <section className="container about-section" id="about">
         <div className="my-info">
           <div>
-            <h3 className="fs-3 about-section-title">About Me</h3>
+            <h3 className="fs-3 about-section-title"><TextScrambler phrases={phrases} speed={70} pauseTime={3000} />{" "}</h3>
             <div className="info-container pt-3">
               <p>
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.

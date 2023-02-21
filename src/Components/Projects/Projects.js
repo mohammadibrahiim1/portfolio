@@ -45,7 +45,7 @@ const Projects = () => {
         <div className="">
           {/* <h3 className="projects-heading mt-5">Other Projects</h3>
            */}
-            <div className="projects-heading mt-5">
+            <div className="projects-heading mt-5"> 
             <TextScrambler phrases={phrases} speed={50} pauseTime={2000} />{" "}
           </div>{" "}
           {/* <Link className="projects-sub-heading text-center">

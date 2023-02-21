@@ -4,15 +4,16 @@
   margin: 0 auto;
   margin-top: 175px;
   padding-top: 175px;
-  /* margin-bottom: 175px; */
 }
 
-
 .about-section-title {
-  color: #abb2bf;
-  font-family: "fira code", monospace;
-  font-weight: 500;
-  font-size: 35px !important;
+  background-image: linear-gradient(to right, #d7d2cc 0%, #304352 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 45px !important;
+  min-height: 10vh;
 }
 .my-img {
   width: 343px;
@@ -30,12 +31,11 @@
 .info-container {
   width: 515px;
   height: 508px;
-  /* padding-top: 35px; */
 }
 
 .info-container p {
   color: #abb2bf;
-  font-family: "fira code", monospace;
+  font-family: "poppins", sans-serif;
   font-size: 15px;
   line-height: 32px;
   margin-bottom: 30px;
@@ -54,21 +54,23 @@
 .skill-card {
   border-radius: 0;
   margin: 0;
+  /* background-color: #abb2bf; */
 }
-.card-body hr{
+.card-body hr {
   width: 100% !important;
   color: #abb2bf;
+  /* background-color: #abb2bf; */
 }
 
-.card-subtitle{
-  color: #ABB2BF;
+.card-subtitle {
+  color: #abb2bf;
 }
-.card-title{
-  color: #FFFFFF;
+.card-title {
+  color: #ffffff;
+  font-family: 'poppins', sans-serif;
 }
 .skill-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 100px; */
 }

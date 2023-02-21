@@ -1,5 +1,7 @@
 body {
-  background-color: #000;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+  background-blend-mode: normal, lighten, soft-light;
+  background-blend-mode: multiply, multiply;
   margin: 0;
   font-family: "Poppins", sans-serif;
   overflow-x: hidden;
