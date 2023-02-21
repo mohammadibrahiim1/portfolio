@@ -1,8 +1,23 @@
 .header-paragraph {
-  font-family: "Fira Code", monospace;
   font-size: 17px;
-  color: #a7a4a3;
+  background: #121fcf;
+  background: linear-gradient(to right, #e5e5e5 15.22%, #f08e35);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   text-align: justify;
+}
+
+.header-subtitle {
+  background: #121fcf;
+  background: linear-gradient(
+    to right,
+    rgb(249, 214, 73) 15.22%,
+    #f08e35 32.09%,
+    rgb(236, 81, 87) 48.96%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* margin-bottom: 10px; */
 }
 
 .header-container {
@@ -14,10 +29,21 @@
   align-items: center;
   padding-top: 200px;
 }
-.header-tille {
-  font-family: "Fira Code", monospace;
-  font-size: 35px;
-  color: #cac8c7;
+.header-title {
+  font-size: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  background: #121fcf;
+  background: linear-gradient(
+    to right,
+    rgb(249, 214, 73) 15.22%,
+    rgb(240, 142, 53) 32.09%,
+    rgb(236, 81, 87) 48.96%,
+    rgb(255, 24, 189) 67.94%,
+    rgb(26, 75, 255) 85.34%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .btn-outline-light {
@@ -27,9 +53,10 @@
   padding: 9px 15px;
   text-decoration: none;
   margin-right: 5px;
-  font-family: "fira code", monospace;
+  font-family: "poppins" sans-serif;
 }
 .btn-outline-light:hover {
-  background-color: #282c33;
-  color: #abb2bf;
+  background: linear-gradient(to right, #833ab4 0, #fd1d1d 50%, #fcb045 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

@@ -9,9 +9,9 @@ const Header = () => {
       <section className="container" id="home">
         <header className="header-container">
           <div>
-            <small className="text-white">hello, my name is</small>
-            <h2 className="header-tille">
-              Mohammad Ebrahim{" "}
+            <small className="header-subtitle ">hello, my name is</small>
+            <h2 className="header-title pt-3">
+              Mohammad Ebrahim{" "} 
               <span>
                 <TextScrambler phrases={phrases} speed={70} pauseTime={3000} />{" "}
               </span>{" "}
